@@ -1,0 +1,25 @@
+# AND Function from Excel
+#' Basic AND function from excel
+#'
+#' It acts similiarly to Excel's AND function. You give the function logical arguments and it either returns true or false.
+#'
+#' @param logical1,logical2,logical3,logical4,logical5,logical6,logical7,logical8,logical9,logical10,logical11,logical12,logical13,logical14,logical15,logical16,logical17,logical18,logical19,logical20,logical21,logical22,logical23,logical24,logical25,logical26,logical27,logical28,logical29,logical30,logical31,logical32 Specify logicals as arguments. The function follows OR logic.
+#' @import base
+#' @export
+#' @examples
+#' AND(iris$Species == "setosa", iris$Petal.Length == 1.4)
+#' @return In the example we take a built-in dataset called iris and see which species are called setosa and which one has a petal length of 1.4. If both of these conditions return true then the final answer will also be true. Function will always return a logical class.
+
+
+
+AND <-
+
+  function(logical1,logical2= TRUE ,logical3= TRUE,logical4= TRUE,logical5= TRUE,logical6= TRUE,logical7= TRUE,logical8= TRUE,logical9= TRUE,logical10= TRUE,logical11= TRUE,logical12= TRUE,logical13= TRUE,logical14= TRUE,logical15= TRUE,logical16= TRUE,logical17= TRUE,logical18= TRUE,logical19= TRUE,logical20= TRUE,logical21= TRUE,logical22= TRUE,logical23= TRUE,logical24= TRUE,logical25= TRUE,logical26= TRUE,logical27= TRUE,logical28= TRUE,logical29= TRUE,logical30= TRUE,logical31= TRUE,logical32= TRUE){
+
+    logical1 & logical2 & logical3 & logical5 & logical6 & logical7 & logical8 & logical9 & logical10 & logical11 & logical12 & logical13 & logical14 & logical15 & logical16 & logical17 & logical18 & logical19 & logical20 & logical21 & logical22 & logical23 & logical24 & logical25 & logical26 & logical27 & logical28 & logical29 & logical30 & logical31 & logical32
+
+  }
+
+
+
+
